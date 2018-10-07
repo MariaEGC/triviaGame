@@ -1,0 +1,26 @@
+div {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+  }
+  .correct, .incorrect {
+    text-transform: capitalize;
+  }
+
+img {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+button{
+    text-align: center;
+}
+
+#start_button{
+    font-size: 30px;
+    margin-left: 700px;
+}
