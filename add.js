@@ -14,11 +14,11 @@ $.fn.trivia = function() {
         correct: 0
     }, {
         question: "How many stones are on the infinity gauntlet?",
-        choices: ["4", "6", "7", "5"],
+        choices: [" 4 ", " 6 ", " 7 ", " 5 "],
         correct: 1
 
     }, {
-        question: "What bit Peter Parker to give him powers?",
+        question: "What animal bit Peter Parker to give him powers?",
         choices: ["Rat", "Ant", "Dog", "Spider"],
         correct: 3
 
@@ -93,7 +93,7 @@ $.fn.trivia = function() {
         setTimeout(function() {
             _t.cleanUp();
             _t.ask();
-        }, 1000)
+        }, 5000)
     };
     _t.cleanUp = function() {
         $('div[id]').each(function(item) {

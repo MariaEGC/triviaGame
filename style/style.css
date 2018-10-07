@@ -3,10 +3,23 @@ div {
     text-align: center;
     font-family: fantasy;
     font-size: 30px;
-  }
-  .correct, .incorrect {
+}
+
+.correct, .incorrect {
     text-transform: capitalize;
-  }
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+#choices_div {
+    color: blue;
+}
 
 img {
     margin: auto;
@@ -23,4 +36,8 @@ button{
 #start_button{
     font-size: 30px;
     margin-left: 700px;
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+    padding: 30px;
 }
